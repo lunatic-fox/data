@@ -1,2 +1,2 @@
-# json
+# Data
 Some useful data to consume
