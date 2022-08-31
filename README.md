@@ -1,2 +1,2 @@
 # Data
-Some useful data to consume
+Some useful data to be consumed.
