@@ -1,0 +1,14 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "Group of tables converted to JSON.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Josélio de S. C. Júnior",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/node": "^2.5.11"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "routes": [
+      {
+          "src": "/",
+          "dest": "/api/dataTables.js"
+      },
+      {
+          "src": "/api",
+          "methods": [ "GET" ],
+          "dest": "/api/dataTables.js"
+      }
+  ]
+}
