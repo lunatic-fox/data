@@ -2,12 +2,12 @@
   "title": "SAZONALIDADE DE PREÇOS DOS PRODUTOS COMERCIALIZADOS NO ETSP 2017 – 2022",
   "source": "https://ceagesp.gov.br/wp-content/uploads/2015/06/Mapa-Sazonalidade-2017-a-2021-PRE%C3%87OS-DE-PRODUTOS-29-06-2022.pdf",
   "info": {
-    "encoded by": "Josélio de S. C. Júnior - 2022",
+    "encodedBy": "Josélio de S. C. Júnior - 2022",
     "link": "https://github.com/lunatic-fox"
   },
   "tableInfo": {
     "subtitle": "Tabela de sazonalidade de acordo com o preço (R$/kg) dos principais produtos comercializados no ETSP",
-    "table subtitles": [
+    "tableSubtitles": [
       "sem cotação",
       "preços em alta",
       "preços médios",
