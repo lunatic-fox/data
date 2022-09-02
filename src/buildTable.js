@@ -17,7 +17,7 @@ const buildTable = async req => {
 
   if (fs.existsSync(uri))
     return Promise.resolve(fs.readFileSync(uri, 'utf8'));
-  return Promise.reject('Data not found!');    
+  return Promise.reject(JSON.stringify(['Data not found!']));    
 };
 
 module.exports = buildTable;
