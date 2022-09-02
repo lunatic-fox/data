@@ -1,19 +1,17 @@
 {
   "title": "SAZONALIDADE DOS PRODUTOS COMERCIALIZADOS NO ETSP 2017 – 2022",
+  "subtitle": "Tabela de sazonalidade de acordo com a quantidade (toneladas) dos principais produtos comercializados no ETSP",
   "source": "https://ceagesp.gov.br/wp-content/uploads/2015/06/Mapa-Sazonalidade-2017-a-2021-QUANTIDADE-DE-PRODUTOS-29-06-2022.pdf",
   "info": {
     "encodedBy": "Josélio de S. C. Júnior - 2022",
     "link": "https://github.com/lunatic-fox"
   },
-  "tableInfo": {
-    "subtitle": "Tabela de sazonalidade de acordo com a quantidade (toneladas) dos principais produtos comercializados no ETSP",
-    "tableSubtitles": [
-      "quantidade insignificante",
-      "baixa disponibilidade",
-      "média disponibilidade",
-      "alta disponibilidade"
-    ]
-  },
+  "tableSubtitles": [
+    "quantidade insignificante",
+    "baixa disponibilidade",
+    "média disponibilidade",
+    "alta disponibilidade"
+  ],
   "frutas": {
     "Abacate Avocado": [1,1,1,3,2,2,3,2,2,2,3,2],
     "Abacate Fortuna": [0,0,3,3,3,3,3,2,0,0,0,0],
