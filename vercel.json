@@ -1,13 +1,22 @@
 {
-  "routes": [
-      {
-          "src": "/",
-          "dest": "/api/dataTables.js"
-      },
-      {
-          "src": "/api",
-          "methods": [ "GET" ],
-          "dest": "/api/dataTables.js"
-      }
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type" }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/api/dataTables.js"
+    },
+    {
+      "source": "/api",
+      "destination": "/api/dataTables.js"
+    }
   ]
 }
